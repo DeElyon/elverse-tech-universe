@@ -87,7 +87,7 @@ const Footer = () => {
           
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> and 
-            <Code2 className="w-4 h-4 text-primary" /> by Supreme Elyon & Team
+            <Code2 className="w-4 h-4 text-primary" /> by ELCODERS, Sub Startup of EL VERSE
           </div>
         </div>
       </div>
