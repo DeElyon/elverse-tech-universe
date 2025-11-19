@@ -68,9 +68,9 @@ const Services = () => {
       title: "BITSPIRE",
       description: "West Africa's premier tech academy",
       details: "Revolutionary tech education institute transforming careers across West Africa. Industry-aligned curriculum, expert instructors, and guaranteed placement programs creating the next generation of African tech leaders.",
-      status: "Launching Oct 2025",
+      status: "Active",
       link: "#",
-      color: "bg-destructive",
+      color: "bg-success",
       features: ["Intensive Bootcamps", "Industry Certifications", "100% Placement Guarantee", "Corporate Partnerships", "Mentorship Programs", "Continuous Learning"]
     }
   ];

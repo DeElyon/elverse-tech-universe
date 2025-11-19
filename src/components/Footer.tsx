@@ -45,7 +45,7 @@ const Footer = () => {
                 <a href="#" className="hover:text-primary transition-colors">MYSPACE (2026)</a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">BITSPIRE (Oct 2025)</a>
+                <a href="#" className="hover:text-primary transition-colors">BITSPIRE</a>
               </li>
             </ul>
           </div>
