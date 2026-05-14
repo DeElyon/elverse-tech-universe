@@ -36,7 +36,7 @@ const About = () => {
                 innovative social platforms, and comprehensive tech education.
               </p>
               <p>
-                With <strong className="text-foreground">32+ dedicated professionals</strong> and 
+                With <strong className="text-foreground">70+ dedicated professionals</strong> and
                 five distinct tech divisions, we're positioned to be your complete technology partner, 
                 whether you're a startup, enterprise, or individual looking to thrive in the digital age.
               </p>
@@ -55,9 +55,9 @@ const About = () => {
         
         {/* Mission, Vision, Values */}
         <div className="grid md:grid-cols-3 gap-8 mb-20">
-          <Card className="border-border/50 hover:border-primary/50 transition-colors">
+          <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:shadow-primary/5">
             <CardContent className="p-8 text-center">
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Target className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Mission</h3>
@@ -68,9 +68,9 @@ const About = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-border/50 hover:border-primary/50 transition-colors">
+          <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:shadow-accent/5">
             <CardContent className="p-8 text-center">
-              <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Eye className="w-8 h-8 text-accent" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Vision</h3>
@@ -81,9 +81,9 @@ const About = () => {
             </CardContent>
           </Card>
           
-          <Card className="border-border/50 hover:border-primary/50 transition-colors">
+          <Card className="border-border/50 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg hover:shadow-success/5">
             <CardContent className="p-8 text-center">
-              <div className="bg-success/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-success/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <Heart className="w-8 h-8 text-success" />
               </div>
               <h3 className="text-xl font-bold mb-4">Our Values</h3>
@@ -114,7 +114,7 @@ const About = () => {
               <div className="bg-accent/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-accent" />
               </div>
-              <h4 className="text-2xl font-bold text-accent mb-2">64+</h4>
+              <h4 className="text-2xl font-bold text-accent mb-2">70+</h4>
               <p className="text-muted-foreground">Tech Professionals</p>
             </div>
             
